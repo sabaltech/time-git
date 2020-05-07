@@ -1,5 +1,4 @@
-module github.com/sonarbot5000/timesheet
-
+module github.com/sabaltech/time-git
 go 1.14
 
 require (

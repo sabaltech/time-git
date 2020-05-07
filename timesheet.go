@@ -14,7 +14,7 @@ func main() {
 	commitMinutes := commitCmd.Int("minutes", 0, "Time in Minutes")
 
 	if len(os.Args) < 2 {
-		fmt.Println("expected 'commit' or 'see' subcommands")
+		fmt.Println("expected 'commit' or 'today' subcommands")
 		os.Exit(1)
 	}
 
@@ -27,8 +27,10 @@ func main() {
 		fmt.Println("  minutes:", *commitMinutes)
 
 		save(*commitDescription, *commitHours, *commitMinutes)
+	case "today":
+		scanToday()
 	default:
-		fmt.Println("expected 'commit' or 'see' subcommands")
+		fmt.Println("expected 'commit' or 'today' subcommands")
 		os.Exit(1)
 	}
 }
