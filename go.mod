@@ -1,4 +1,5 @@
 module github.com/sabaltech/time-git
+
 go 1.14
 
 require (
