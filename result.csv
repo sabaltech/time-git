@@ -1,0 +1,7 @@
+05/07/20,7.00,,SCB Support with Andrei and Gopi; Updated install_acx playbook with new flat config attributes; Santander Support
+05/08/20,8.00,,Started to convert the acx-operator watcher to java8
+05/11/20,7.00,,Work with Luigi on docker-compose and cassandra resource usage; Work with Andrei on On-Prem to ACX Connectivity
+05/12/20,4.00,,Testing latencies within the SCB infrastructure
+05/13/20,8.00,,Finished first round of porting watcher to java8; Created SCB Infrascture Diagram; Call with Santander
+05/14/20,7.00,,Dockerized Operator. Added GetEvents Route to API; Santander Work Session
+05/15/20,6.50,,Refactoring acx-operator java code to make it more readable

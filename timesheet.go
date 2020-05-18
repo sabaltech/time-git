@@ -56,6 +56,8 @@ func main() {
 		printTimesheet("jllombart", time.Now(), time.Now())
 	case "timesheet":
 		printTimesheet("jllombart", getMondayDate(time.Now()).AddDate(0, 0, -4), time.Now())
+	case "csv":
+		writeCSV("jllombart", time.Now())
 	default:
 		fmt.Println("expected 'commit' or 'today' subcommands")
 		os.Exit(1)
